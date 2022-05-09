@@ -1,13 +1,25 @@
 import { storage, Context } from "near-sdk-as"
 
+
+//===============Task1===========================
+
 // return the string 'hello world'
 // export function helloWorld(): string {
 //   return 'hello <YourName>'
 // }
 
-export function helloWorld(name: string): string {
-  return 'hello ' + name
-}
+//===============Task2===========================
+
+// export function helloWorld(name: string): string {
+//   return 'hello ' + name
+// }
+
+//===============HomeWork2 - Task3===========================
+
+// export function helloWorld(): string {
+//   const predecessor = Context.predecessor
+//   return 'hello ' + predecessor
+// }
 
 // read the given key from account (contract) storage
 export function read(key: string): string {
